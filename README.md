@@ -45,7 +45,17 @@ A brief description of what your project does and its purpose.
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=your_database_name
-DB_USERNAME=your_database_user
-DB_PASSWORD=your_database_password
+DB_DATABASE=task_mini_ecommerce
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+7. **Set up your database by running migrations:**:
+```bash
+    php artisan migrate
+
+
+
+
+
 
