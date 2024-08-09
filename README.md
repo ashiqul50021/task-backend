@@ -41,8 +41,8 @@ A brief description of what your project does and its purpose.
     php artisan key:generate
 
 6. **Open the `.env` file and update the following lines to match your local environment settings:**:
-    ```code
-    DB_CONNECTION=mysql
+```env
+DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=your_database_name
