@@ -53,3 +53,15 @@ DB_PASSWORD=
 7. **Set up your database by running migrations:**:
 ```bash
     php artisan migrate
+8. **If your project includes seeders, you can populate the database with initial data:**:
+```bash
+    php php artisan db:seed
+9. **Compile the front-end assets using npm:**:
+```bash
+    npm run dev
+10. **For production, you can use:**:
+```bash
+    npm run build
+11. **Launch the Laravel development server:**:
+```bash
+    php artisan serve
