@@ -53,9 +53,3 @@ DB_PASSWORD=
 7. **Set up your database by running migrations:**:
 ```bash
     php artisan migrate
-
-
-
-
-
-
